@@ -1,0 +1,58 @@
+body{
+    background-color: grey;
+  
+  }
+  
+  
+  
+  
+  
+  .border {
+    
+    border: 10px solid gold;
+    padding: 1em 1em 1em 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%; 
+    text-align: center
+  }
+  .center {
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    padding:0%;
+    border: 10px;
+   
+  }
+  
+  .column {
+    display: inline;
+    width: 40.3%;
+    padding: 0px;
+  }
+  .row::after {
+  content:""; 
+  display: table;
+  clear: both;
+  }
+  span {
+   display: inline-block;
+   font-size: 25px;
+    border: 2px solid gold;
+    width: auto;
+  }
+  .center1 {
+    display: inline;
+    width: 100px;
+    height: 100px;
+    padding:0%;
+    border: 5px;
+   
+  }
+  .column1 {
+    display: inline;
+    width: 25.3%;
+    padding: 0px;
+  }
+  
